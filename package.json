@@ -1,0 +1,27 @@
+{
+  "name": "nadesiko3-mssql",
+  "version": "0.0.1",
+  "description": "MS SQLServer Plug-in for Nadesiko3",
+  "main": "src/plugin_mssql.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujirahand/nadesiko3-mssql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kujirahand/nadesiko3-mssql/issues"
+  },
+  "homepage": "https://github.com/kujirahand/nadesiko3-mssql#readme",
+  "dependencies": {
+    "msnodesqlv8": "^0.6.12"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "nadesiko3": "^3.0.55"
+  }
+}
