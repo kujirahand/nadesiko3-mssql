@@ -27,7 +27,7 @@ const PluginMSSQL = {
       })
     }
   },
-  'MSSQL逐次実行': { // @逐次実行構文にて、SQLとパラメータPARAMSでSQLを実行し、変数『対象』に結果を得る。 // MSSQLちくじじっこう
+  'MSSQL逐次実行': { // @逐次実行構文にて、SQLとパラメータPARAMSでSQLを実行し、変数『対象』に結果を得る。 // @MSSQLちくじじっこう
     type: 'func',
     josi: [['を'], ['で']],
     fn: function (sql, params, sys) {
@@ -45,7 +45,7 @@ const PluginMSSQL = {
     },
     return_none: true
   },
-  'MSSQL逐次閉': { // @開いているデータベースを閉じる // MSSQLとじる
+  'MSSQL逐次閉': { // @開いているデータベースを閉じる // @MSSQLとじる
     type: 'func',
     josi: [],
     fn: function (sys) {
