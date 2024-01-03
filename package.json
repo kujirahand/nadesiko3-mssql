@@ -1,6 +1,6 @@
 {
   "name": "nadesiko3-mssql",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "MS SQLServer Plug-in for Nadesiko3",
   "main": "src/plugin_mssql.js",
   "scripts": {
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/kujirahand/nadesiko3-mssql#readme",
   "dependencies": {
-    "msnodesqlv8": "^0.6.12"
+    "msnodesqlv8": "^4.1.2"
   },
   "devDependencies": {
-    "mocha": "^3.4.2",
-    "nadesiko3": "^3.0.55"
+    "mocha": "^10.2.0",
+    "nadesiko3": "^3.4.26"
   }
 }

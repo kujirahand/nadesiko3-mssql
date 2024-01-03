@@ -1,0 +1,8 @@
+!「../src/plugin_mssql.mjs」を取り込む
+CONF = 『server=.;Database=Master;Trusted_Connection=Yes;Driver={SQL Server Native Client 11.0}』
+CONFでMSSQL接続
+「CREATE TABLE tt (id BIGINT, value BIGINT);」を[]でMSSQL実行
+「INSERT INTO tt (id, value)VALUES(1,321);」を[]でMSSQL実行
+S=「SELECT * FROM tt ORDER BY id ASC LIMIT 1」を[]でMSSQL実行
+SをJSONエンコードして表示
+MSSQL閉じる
